@@ -1,0 +1,82 @@
+{
+  "Layout": [
+    "container","container-fluid",
+    "row","row-cols-1","row-cols-2","row-cols-3","row-cols-4","row-cols-5","row-cols-6",
+    "col","col-auto",
+    "col-1","col-2","col-3","col-4","col-5","col-6","col-7","col-8","col-9","col-10","col-11","col-12",
+    "col-sm-1","col-sm-2","col-sm-3","col-sm-4","col-sm-5","col-sm-6","col-sm-7","col-sm-8","col-sm-9","col-sm-10","col-sm-11","col-sm-12",
+    "col-md-1","col-md-2","col-md-3","col-md-4","col-md-5","col-md-6","col-md-7","col-md-8","col-md-9","col-md-10","col-md-11","col-md-12",
+    "offset-1","offset-2","offset-3","offset-4","offset-5","offset-6"
+  ],
+
+  "Flex": [
+    "d-flex","d-inline-flex",
+    "flex-row","flex-column","flex-row-reverse","flex-column-reverse",
+    "flex-wrap","flex-nowrap","flex-wrap-reverse",
+    "justify-content-start","justify-content-center","justify-content-end","justify-content-between","justify-content-around","justify-content-evenly",
+    "align-items-start","align-items-center","align-items-end","align-items-baseline","align-items-stretch",
+    "align-self-start","align-self-center","align-self-end"
+  ],
+
+  "Spacing": [
+    "m-0","m-1","m-2","m-3","m-4","m-5",
+    "mt-0","mt-1","mt-2","mt-3","mt-4","mt-5",
+    "mb-0","mb-1","mb-2","mb-3","mb-4","mb-5",
+    "ms-0","ms-1","ms-2","ms-3","ms-4","ms-5",
+    "me-0","me-1","me-2","me-3","me-4","me-5",
+    "p-0","p-1","p-2","p-3","p-4","p-5",
+    "pt-0","pt-1","pt-2","pt-3","pt-4","pt-5",
+    "pb-0","pb-1","pb-2","pb-3","pb-4","pb-5"
+  ],
+
+  "Buttons": [
+    "btn","btn-primary","btn-secondary","btn-success","btn-danger","btn-warning","btn-info","btn-light","btn-dark",
+    "btn-outline-primary","btn-outline-secondary","btn-outline-success","btn-outline-danger","btn-outline-warning","btn-outline-info","btn-outline-light","btn-outline-dark",
+    "btn-lg","btn-sm","btn-link"
+  ],
+
+  "Typography": [
+    "h1","h2","h3","h4","h5","h6",
+    "display-1","display-2","display-3","display-4","display-5","display-6",
+    "lead","fw-bold","fw-semibold","fw-light","fst-italic",
+    "text-start","text-center","text-end",
+    "text-primary","text-secondary","text-success","text-danger","text-warning","text-info","text-light","text-dark",
+    "text-muted","text-white"
+  ],
+
+  "Background": [
+    "bg-primary","bg-secondary","bg-success","bg-danger","bg-warning","bg-info","bg-light","bg-dark","bg-white","bg-transparent"
+  ],
+
+  "Borders": [
+    "border","border-0",
+    "border-top","border-bottom","border-start","border-end",
+    "border-primary","border-secondary","border-success","border-danger","border-warning","border-info","border-light","border-dark",
+    "rounded","rounded-0","rounded-1","rounded-2","rounded-3","rounded-circle","rounded-pill"
+  ],
+
+  "Sizing": [
+    "w-25","w-50","w-75","w-100","w-auto",
+    "h-25","h-50","h-75","h-100","h-auto"
+  ],
+
+  "Display": [
+    "d-none","d-inline","d-inline-block","d-block","d-grid","d-table","d-table-row","d-table-cell"
+  ],
+
+  "Forms": [
+    "form-control","form-control-lg","form-control-sm",
+    "form-select","form-select-lg","form-select-sm",
+    "form-check","form-check-input","form-check-label",
+    "form-floating"
+  ],
+
+  "Shadows": [
+    "shadow","shadow-sm","shadow-lg","shadow-none"
+  ],
+
+  "Position": [
+    "position-static","position-relative","position-absolute","position-fixed","position-sticky",
+    "top-0","bottom-0","start-0","end-0","translate-middle"
+  ]
+}

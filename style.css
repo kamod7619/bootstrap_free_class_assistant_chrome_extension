@@ -1,0 +1,40 @@
+.__bs_highlight {
+  outline: 2px solid #ff4d4d !important;
+  cursor: pointer !important;
+}
+
+#__bs_panel {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 300px;
+  max-height: 80vh;
+  overflow-y: auto;
+  background: #1e1e1e;
+  color: white;
+  padding: 15px;
+  z-index: 999999;
+  border-radius: 10px;
+  font-family: Arial;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#__bs_panel input {
+  width: 100%;
+  padding: 6px;
+  margin-bottom: 10px;
+}
+
+#__bs_panel button {
+  width: 100%;
+  padding: 6px;
+  margin: 4px 0;
+  background: #333;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+#__bs_panel button:hover {
+  background: #555;
+}

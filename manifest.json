@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "Bootstrap Free Class Assistant | Live Editor",
+  "version": "1.0.0",
+  "description": "Powerful Bootstrap class helper for v3, v4, and v5. Live preview, smart suggestions, version auto-detection, undo/redo, and instant UI editing directly inside any website.",
+  "minimum_chrome_version": "100",
+
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ],
+
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Open Bootstrap Free Class Assistant"
+  },
+
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ],
+
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "data/bootstrap-v3.json",
+        "data/bootstrap-v4.json",
+        "data/bootstrap-v5.json"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
