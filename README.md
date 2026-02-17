@@ -4,7 +4,7 @@ You can copy this directly into your repository.
 
 ---
 
-# 🚀 Bootstrap Class Assistant
+# 🚀 Bootstrap Free Class Assistant – v3, v4 & v5 Live Editor for Chrome
 
 ### Live Bootstrap v3, v4 & v5 Editor for Google Chrome
 
